@@ -1,0 +1,33 @@
+.footer{
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.footer li{
+    list-style: none;
+    margin-top: 15px;
+    color:rgb(75, 73, 73);
+    font-size: 11px;
+    text-align: justify;
+}
+.social-media{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.icon{
+    color: rgb(182, 179, 3);
+   
+}
+.social-media .icon{
+    height:40px;
+    width:40px;
+    margin-left: 10px;
+  
+    border-radius: 50%;
+    border: 1px solid rgb(182, 179, 3);
+    padding: 10px;
+}
+.copyRight{
+    font-size: 12px;
+}

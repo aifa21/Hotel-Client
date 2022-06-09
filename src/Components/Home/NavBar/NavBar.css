@@ -1,0 +1,14 @@
+.navbar{
+   
+}
+.navbar-nav{
+   margin-left:auto;
+}
+.nav-item{
+    margin-right:40px;
+}
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius: 80%;
+}

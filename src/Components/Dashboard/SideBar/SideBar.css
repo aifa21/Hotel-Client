@@ -1,0 +1,19 @@
+.sidebar{
+   
+    width:200px;
+    position:fixed;
+    left:0;
+    top:0;
+    height:100%;
+    background-image: linear-gradient(40deg, #41b6ec,#0c19cf);   
+}
+.list-unstyled{
+    margin-top: 30px;
+}
+.sidebar li{
+    margin-bottom: 2em;
+}
+.sidebar li:hover span{
+    display:inline-block;
+    transform:translate(5px);
+}

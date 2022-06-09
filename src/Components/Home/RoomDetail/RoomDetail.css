@@ -1,0 +1,119 @@
+.room-details-container p{
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.upper-part{
+    margin: auto;
+    padding-bottom: 90px;
+    width: 97%;
+    float:right;
+    text-align: center;
+    text-shadow: 2px 2px 8px #babbbb;
+    }
+.upper-part img{
+    
+    width: 100%;  
+    height: auto; 
+    box-shadow: 0 4px 8px 0 rgba(91, 85, 126, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-and-detail{
+    padding-left: 20px;
+    padding-bottom: 90px;
+}
+.img-and-detail img{
+    /* max-width:300px; */
+    width:100%;
+    height:300px;
+    margin:20px;
+    float:right;
+    
+    object-fit: cover;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(91, 85, 126, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.upper-part h2{
+    margin-bottom: 40px;
+}
+.detail-group{
+    
+    margin-top:40px;
+    float:right;
+    
+}
+.detail-group h4{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.detail-group td{
+    padding: 10px;  
+    font-size: 13px;
+    color:black;
+  
+}
+.table{
+  
+    box-shadow:  0 4px 8px 0 rgba(150, 143, 194, 0.2), 0 6px 20px 0 rgba(119, 118, 118, 0.1);
+}
+.first-cell{
+   width:130px;
+}
+.second-cell{
+   
+   
+}
+.d-icon{
+    height:12px;
+    color:rgb(207, 198, 71)
+}
+.checkout-section{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 70px;
+    padding:45px;
+    margin-left:30px;
+    box-shadow:  0 4px 8px 0 rgba(150, 143, 194, 0.2), 0 6px 20px 0 rgba(119, 118, 118, 0.1);
+}
+.checkout-section h5{
+    margin-bottom: 20px;
+    
+}
+.checkout{
+display: flex;
+justify-content: center; 
+
+} 
+
+.checkout input{
+    display:block;
+    width:100%;
+    height:40px;
+    padding:20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding: 0px 12px;
+    
+}
+
+
+.underLine{
+    color:#d9dbdb;
+}
+.checkout-section .dayCalc{
+    font-size: 13px;
+    color:#666868;
+    margin-top: 15px;
+    border:1px solid #d9dbdb;
+    padding:15px;
+}
+@media screen and (max-width: 768px){
+    .room-card{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      margin-left: 30px;
+    }
+  
+  }
